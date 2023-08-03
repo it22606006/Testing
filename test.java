@@ -9,17 +9,7 @@ class Display{
     }
 }
 
-class T extends Thread{
-    Display c;
 
-    T(Display c){
-        this.c = c;
-    }
-
-    public void run(){
-        c.print();
-    }
-}
 
 public class App {
     public static void main(String[] args) throws Exception {
